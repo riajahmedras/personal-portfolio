@@ -1,0 +1,155 @@
+
+@font-face {
+   font-family: 'BebasNeue-Regular';
+   src: url(fonts/BebasNeue-Regular.ttf) format('ttf'),
+        url(fonts/BebasNeue-Regular.woff) format('woff'),
+        url(fonts/BebasNeue-Regular.otf) format('otf');
+ }
+ /*
+ font-family: 'Roboto', sans-serif;
+ */
+p{
+   font-family: 'Roboto', sans-serif;
+   color: #3E3E3E;
+   font-size: 16px;
+   
+}
+.fix{
+   overflow: hidden;
+}
+
+section{
+   width: 80%;
+   margin: 0px auto;
+}
+nav{
+   float: right;
+   margin-right: 5%;
+}
+a{
+   text-decoration: none;
+}
+li {
+   list-style: none;
+   display: inline;
+   padding: 10px 15px;
+}
+.left, .right{
+   float: left;
+   width: 40%;
+   margin-right: 10%;
+}
+.right{margin-right: -5%;}
+.text{
+   margin-top: 10%;
+}
+
+.first_section h2{
+   font-family: BebasNeue-Regular;
+   color: #363958;
+   font-size: 80px;
+   line-height: 7px;
+}
+.color{
+   color: #FF8367;
+}
+.btn{
+   text-decoration: none;
+   color: #ffffff;
+   background-image: linear-gradient(180deg, #de1d03, #FB7462);
+   padding: 15px 30px;
+   line-height: 47px;
+   font-weight: bold;
+   border-radius: 5px
+}
+img{
+   width: 100%;
+}
+/* post section css*/
+h2{
+   font-size: 48px;
+}
+.post h2, .skill h2{text-align: center; margin-top: 10%; margin-bottom: 10%;}
+
+.one_third{
+   width: 30%;
+   margin-right: 1.5%;
+   font-family: 'Roboto', sans-serif;
+   float: left;
+}
+.one_third:last-child{
+   margin-right: 0;
+}
+.title{
+   font-size: 24px;
+   font-weight: bold;
+}
+.call_to_action{
+   width: 60%;
+   margin: 10% auto;
+   background-image: url("images/single.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   padding: 2%;
+   vertical-align: center;
+}
+.call_to_action  h2{
+   float: left;
+   font-size: 64px;
+   color: #ffffff;
+   font-family: BebasNeue-Regular;
+   margin-left: 4%;
+}
+.call_to_action .btn{
+   float: right;
+   margin-top: 6%;
+   padding: 10px 35px;
+   margin-right: 2%;
+}
+
+.skill li{
+   display: block;
+   color: white;
+   font-size: 24px;
+   font-family: BebasNeue-Regular;
+}
+.skill_box{
+   border: 1px solid #ccc;
+   margin: 2% 0;
+}
+section.skill.fix {
+}
+section.skill.fix ul{
+   margin-top: 20%;
+}
+.html{background: #FB7462; width: 90%;}
+.css{background: #272626; width: 80%;}
+.jv{background: #0742b1; width: 70%;}
+.react{background: #fc2c11; width: 60%;}
+
+footer{
+   text-align: center;
+}
+footer .one{
+   font-size: 14px;
+   font-family: BebasNeue-Regular;
+   color: rgb(27, 27, 27);
+}
+p.two {
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 0;
+}
+}
+footer_ul {
+   padding: 0;
+   font-size: 36px;
+   color: #fd109e;
+   margin: 0;
+}
+footer li {
+   color: #d20e0e;
+   font-size: 28px;
+   padding: 8px;
+}
